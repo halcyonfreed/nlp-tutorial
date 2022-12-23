@@ -4,6 +4,8 @@
 
 `nlp-tutorial` is a tutorial for who is studying NLP(Natural Language Processing) using **Pytorch**. Most of the models in NLP were implemented with less than **100 lines** of code.(except comments or blank lines)
 
+p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础模型**
+
 ## Dependencies
 
 - Python 3.6+
@@ -14,7 +16,7 @@
 #### 1. Basic Embedding Model
 
 - 1-1. [NNLM(Neural Network Language Model)](https://github.com/wmathor/nlp-tutorial/tree/master/1-1.NNLM) - **Predict Next Word**
-  - Paper -  [A Neural Probabilistic Language Model(2003)](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+  - Paper -  [A Neural Probabilistic Language Model(2003)](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) nlp入门强推！！！
   - Colab - [NNLM_Torch.ipynb](https://colab.research.google.com/drive/1-agQZoIOxaE68_SMaNGy35pz8ccWefps?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1AT4y1J7bv/
 - 1-2. [Word2Vec(Skip-gram)](https://github.com/wmathor/nlp-tutorial/tree/master/1-2.Word2Vec) - **Embedding Words and Show Graph**
@@ -26,8 +28,6 @@
   - Paper - [Bag of Tricks for Efficient Text Classification(2016)](https://arxiv.org/pdf/1607.01759.pdf)
   - Colab - [FastText.ipynb](https://colab.research.google.com/drive/1vyLFapyCygGREa9jt11Zfy_DgTDGvGwm?usp=sharing)
 
-
-
 #### 2. CNN(Convolutional Neural Network)
 
 - 2-1. [TextCNN](https://github.com/wmathor/nlp-tutorial/tree/master/2-1.TextCNN) - **Binary Sentiment Classification**
@@ -35,22 +35,25 @@
   - Colab -  [TextCNN_Torch.ipynb](https://colab.research.google.com/drive/13o8uID830WHL3rRZhXMoANc2XuqehRta?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1ip4y1U735/
 
-
-
 #### 3. RNN(Recurrent Neural Network)
 
 - 3-1. [TextRNN](https://github.com/wmathor/nlp-tutorial/tree/master/3-1.TextRNN) - **Predict Next Step**
   - Paper - [Finding Structure in Time(1990)](http://psych.colorado.edu/~kimlab/Elman1990.pdf)
   - Colab -  [TextRNN_Torch.ipynb](https://colab.research.google.com/drive/1Krpcg9BNW97cXqmgnEcW2D05pDhLBMkA?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1iK4y147ff/
+  - 补充：
+    - RNN Layer：https://wmathor.com/index.php/archives/1392/ ；
+    - RNN的PyTorch实现：https://wmathor.com/index.php/archives/1446/
 - 3-2. [TextLSTM](https://github.com/wmathor/nlp-tutorial/tree/master/3-2.TextLSTM) - **Autocomplete**
   - Paper - [LONG SHORT-TERM MEMORY(1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)
   - Colab -  [TextLSTM_Torch.ipynb](https://colab.research.google.com/drive/1K75NsbkuejOzp2tfsXGDJxP-nQl9V0DC?usp=sharing)
 - 3-3. [Bi-LSTM](https://github.com/wmathor/nlp-tutorial/tree/master/3-3.Bi-LSTM) - **Predict Next Word in Long Sentence**
   - Colab -  [Bi_LSTM_Torch.ipynb](https://colab.research.google.com/drive/1R_3_tk-AJ4kYzxv8xg3AO9rp7v6EO-1n?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1tf4y117hA/
-
-
+  - 补充：
+    - LSTM：https://wmathor.com/index.php/archives/1397/ 
+    - PyTorch中的LSTM：https://wmathor.com/index.php/archives/1400/ 
+    - BiLSTM的PyTorch应用：https://wmathor.com/index.php/archives/1447/
 
 #### 4. Attention Mechanism
 
@@ -66,8 +69,6 @@
 - 4-3. [Bi-LSTM with Attention](https://github.com/wmathor/nlp-tutorial/tree/master/4-3.Bi-LSTM(Attention)) - **Binary Sentiment Classification**
   - Colab -  [Bi_LSTM(Attention)_Torch.ipynb](https://colab.research.google.com/drive/1RDXyIYPm6PWBWP4tVD85rkIo50clgyiQ?usp=sharing)
 
-
-
 #### 5. Model based on Transformer
 
 - 5-1.  [The Transformer](https://github.com/wmathor/nlp-tutorial/tree/master/5-1.Transformer) - **Translate**
@@ -79,25 +80,35 @@
   - Colab - [BERT_Torch.ipynb](https://colab.research.google.com/drive/1LVhb99B-YQJ1bGnaWIX-2bgANy78zAAt?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV11p4y1i7AN
 
-|           Model            |              Example               |
+|           Model           |              Example              |
 | :------------------------: | :--------------------------------: |
-|            NNLM            |         Predict Next Word          |
-|     Word2Vec(Softmax)      |   Embedding Words and Show Graph   |
-|          TextCNN           |      Sentence Classification       |
-|          TextRNN           |         Predict Next Step          |
+|            NNLM            |         Predict Next Word         |
+|     Word2Vec(Softmax)     |   Embedding Words and Show Graph   |
+|          TextCNN          |      Sentence Classification      |
+|          TextRNN          |         Predict Next Step         |
 |          TextLSTM          |            Autocomplete            |
-|          Bi-LSTM           | Predict Next Word in Long Sentence |
-|          Seq2Seq           |            Change Word             |
-|   Seq2Seq with Attention   |             Translate              |
-|   Bi-LSTM with Attention   |  Binary Sentiment Classification   |
-|        Transformer         |             Translate              |
-| Greedy Decoder Transformer |             Translate              |
+|          Bi-LSTM          | Predict Next Word in Long Sentence |
+|          Seq2Seq          |            Change Word            |
+|   Seq2Seq with Attention   |             Translate             |
+|   Bi-LSTM with Attention   |  Binary Sentiment Classification  |
+|        Transformer        |             Translate             |
+| Greedy Decoder Transformer |             Translate             |
 |            BERT            |            how to train            |
-
-
 
 ## Author
 
 - Tae Hwan Jung(Jeff Jung) @graykode，modify by [wmathor](https://github.com/wmathor)
 - Author Email : nlkey2022@gmail.com
 - Acknowledgements to [mojitok](http://mojitok.com/) as NLP Research Internship.
+
+* nlp-tutorial
+* Dependencies
+* Curriculum - (Example Purpose)
+  * 1. Basic Embedding Model
+  * 2. CNN(Convolutional Neural Network)
+  * 3. RNN(Recurrent Neural Network)
+  * 4. Attention Mechanism
+  * 5. Model based on Transformer
+* Author
+
+<pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><br class="Apple-interchange-newline"/></pre>
