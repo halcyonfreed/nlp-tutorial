@@ -112,3 +112,7 @@ p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础�
 * Author
 
 <pre class="vditor-reset" placeholder="" contenteditable="true" spellcheck="false"><br class="Apple-interchange-newline"/></pre>
+
+## plan
+
+- [ ] 1.6 1-1
