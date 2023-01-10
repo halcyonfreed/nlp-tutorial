@@ -6,6 +6,8 @@
 
 p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础模型**
 
+每次git
+
 ## Dependencies
 
 - Python 3.6+
@@ -51,8 +53,8 @@ p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础�
   - Colab -  [Bi_LSTM_Torch.ipynb](https://colab.research.google.com/drive/1R_3_tk-AJ4kYzxv8xg3AO9rp7v6EO-1n?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1tf4y117hA/
   - 补充：
-    - LSTM：https://wmathor.com/index.php/archives/1397/ 
-    - PyTorch中的LSTM：https://wmathor.com/index.php/archives/1400/ 
+    - LSTM：https://wmathor.com/index.php/archives/1397/
+    - PyTorch中的LSTM：https://wmathor.com/index.php/archives/1400/
     - BiLSTM的PyTorch应用：https://wmathor.com/index.php/archives/1447/
 
 #### 4. Attention Mechanism
