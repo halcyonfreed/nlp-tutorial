@@ -36,10 +36,12 @@ p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础�
   - Paper - [Convolutional Neural Networks for Sentence Classification(2014)](http://www.aclweb.org/anthology/D14-1181)
   - Colab -  [TextCNN_Torch.ipynb](https://colab.research.google.com/drive/13o8uID830WHL3rRZhXMoANc2XuqehRta?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1ip4y1U735/
+  - 博客：https://wmathor.com/index.php/archives/1445/ 要看！！！
 
 #### 3. RNN(Recurrent Neural Network)
 
 - 3-1. [TextRNN](https://github.com/wmathor/nlp-tutorial/tree/master/3-1.TextRNN) - **Predict Next Step**
+
   - Paper - [Finding Structure in Time(1990)](http://psych.colorado.edu/~kimlab/Elman1990.pdf)
   - Colab -  [TextRNN_Torch.ipynb](https://colab.research.google.com/drive/1Krpcg9BNW97cXqmgnEcW2D05pDhLBMkA?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1iK4y147ff/
@@ -47,14 +49,17 @@ p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础�
     - RNN Layer：https://wmathor.com/index.php/archives/1392/ ；
     - RNN的PyTorch实现：https://wmathor.com/index.php/archives/1446/
 - 3-2. [TextLSTM](https://github.com/wmathor/nlp-tutorial/tree/master/3-2.TextLSTM) - **Autocomplete**
+
   - Paper - [LONG SHORT-TERM MEMORY(1997)](https://www.bioinf.jku.at/publications/older/2604.pdf)
   - Colab -  [TextLSTM_Torch.ipynb](https://colab.research.google.com/drive/1K75NsbkuejOzp2tfsXGDJxP-nQl9V0DC?usp=sharing)
+  - 博客：
+    - LSTM：https://wmathor.com/index.php/archives/1397/
+    - PyTorch中的LSTM：https://wmathor.com/index.php/archives/1400/
 - 3-3. [Bi-LSTM](https://github.com/wmathor/nlp-tutorial/tree/master/3-3.Bi-LSTM) - **Predict Next Word in Long Sentence**
+
   - Colab -  [Bi_LSTM_Torch.ipynb](https://colab.research.google.com/drive/1R_3_tk-AJ4kYzxv8xg3AO9rp7v6EO-1n?usp=sharing)
   - bilibili - https://www.bilibili.com/video/BV1tf4y117hA/
   - 补充：
-    - LSTM：https://wmathor.com/index.php/archives/1397/
-    - PyTorch中的LSTM：https://wmathor.com/index.php/archives/1400/
     - BiLSTM的PyTorch应用：https://wmathor.com/index.php/archives/1447/
 
 #### 4. Attention Mechanism
@@ -117,9 +122,13 @@ p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础�
 
 ## plan
 
-- [x] 1.6/1.10 1-1
-- [ ] 1.11 
-  - [x] 1-2搞了一下 1-3没看不看了	
-  - [ ] 2
-  - [ ] 3-1，3-2，3-3
+- [X] 1.6/1.10 1-1
+- [X] 1.11
 
+  - [X] 1-2搞了一下 1-3没看不看了
+  - [X] 2
+- [ ] 1.12
+
+  - [ ] 3-1，3-2，3-3 下午1.5h
+  - [ ] 4  1
+  - [ ] 5 1h
