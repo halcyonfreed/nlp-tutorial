@@ -6,6 +6,8 @@
 
 p.s.比较老，2020年的东西，不是最新的，但是模型都是**基础模型**
 
+整个是借鉴大佬的https://github.com/graykode/nlp-tutorial?fbclid=IwAR3_DRc1-fcWQjumjDTM6e8xCpwZ09kYcXKOLBaS3AC2zbVeGvXKJOz4voo
+
 ## Dependencies
 
 - Python 3.6+
